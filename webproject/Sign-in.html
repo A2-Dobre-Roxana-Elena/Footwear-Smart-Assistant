@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sign in</title>
+    <link rel="stylesheet" href="Sign-in.css">
+
+    <script src="https://kit.fontawesome.com/4788844277.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="grid-item item1"></div>
+        <a href="Start.html">
+          <div class="grid-item item2">FoSa</div>
+        </a> 
+        <div class="grid-item item3"></div> 
+        <a href="AboutSec.html">
+              <div class="grid-item item4"><i class="fa-solid fa-circle-info"></i> Despre</div>
+        </a>
+        <div class="grid-item item5"></div>
+        <a href="HelpSec.html">
+          <div class="grid-item item6"><i class="fa-solid fa-circle-question"></i> Ajutor</div>
+        </a>
+      </div>
+
+    <div class="box">
+        <form action="Sign-in.php" method="post">
+            <div class="center">
+                <label for="mail"></label><br>
+                <input type="email" id="mail" name="mail" placeholder="Adresa de email" required><br>
+                <label for="name"></label><br>
+                <input type="text" id="name" name="name" placeholder="Nume" required><br>
+                <label for="pname"></label><br>
+                <input type="text" id="pname" name="pname" placeholder="Prenume" required><br>
+                <label for="pass"></label><br>
+                <input type="password" id="pass" name="pass" placeholder="Parola"><br><br><br>
+                <div class="button [type=submit]">
+                    <input type="submit" value="INREGISTRARE">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

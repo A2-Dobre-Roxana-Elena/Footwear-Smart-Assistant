@@ -1,0 +1,161 @@
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  } */
+
+  body {
+    /*  #FAF0E6; */
+    background-color:#FFF5EE;
+  }
+
+.grid-container {
+    display: grid;
+    gap: 10px;
+    background-color: #c9beb6;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    background-color: #000000(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+  }
+  
+   /* .grid-container {
+    display: grid;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  } */
+  
+  /* .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center; 
+    padding: 20px;
+    font-size: 30px;
+  } */
+
+  .item1 {
+    grid-column:1;
+    grid-row: 1;
+  }
+
+  .item2 {
+    font-size: 35px;
+    grid-column:2;
+    grid-row: 1 / span 2;
+  }
+
+  .item3 {
+    grid-column:3;
+    grid-row: 1;
+  }
+
+  .item4 {
+    grid-column:1;
+    grid-row: 2;
+    font-size: 20px;
+  }
+
+  .item5 {
+    grid-column:2;
+    grid-row: 2;
+  }
+
+  .item6 {
+    grid-column:3;
+    grid-row: 2;
+    font-size: 20px;
+  }
+
+  .item7 {
+    grid-column:1;
+    grid-row: 3;
+    font-size: 20px;
+  }
+
+  .item8 {
+    grid-column:2;
+    grid-row: 3;
+  }
+
+  .item9 {
+    grid-column:3;
+    grid-row: 3;
+    font-size: 20px;
+  }
+
+  a:link {
+    color: black;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: black;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #A0522D;
+    text-decoration: none;
+  }
+  
+  /* selected link */
+  a:active {
+    color: black;
+    text-decoration: none;
+  }
+
+
+
+/* body {
+    background-color: #c9beb6;
+} */
+
+.center {
+    text-align: center;
+}
+.btn {
+    padding: 10px;
+    background-color: #B1A296;
+    border-radius: 10px;
+    color:#fff;
+    border-color: #fff;
+}
+/* header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: #b1a296;
+} */
+.fa-regular{
+    color: #fff;
+    font-size: 20px;
+}
+
+/* a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 8px;
+  } */
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  .round {
+    border-radius: 50%;
+  }
+  li,a{
+    text-decoration: none;
+    list-style-type: none;
+    color: #fff;
+}
+.left{
+    text-align:left;
+}

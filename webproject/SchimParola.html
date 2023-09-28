@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Schimbati Parola</title>
+    <link rel="stylesheet" href="SchimbParola.css">
+    <script src="https://kit.fontawesome.com/4788844277.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- <header>
+        <nav>
+            <ul>
+                <li style="float:left"><i class="fa-regular fa-circle-question"></i>
+                    <a href="Help.html">Help</a>
+                </li>
+            </ul>
+        </nav>
+
+
+        <a href="Start.html">
+            <div class="center"><button class="btn">FOSA</button></div>
+        </a>
+
+        <nav>
+            <ul>
+                <li style="float:left"> <i class="fa-solid fa-circle-exclamation"></i>
+                    <a href="About.html">About</a>
+                </li>
+            </ul>
+        </nav>
+    </header> -->
+
+    <div class="grid-container">
+        <div class="grid-item item1"></div>
+        <a href="Start.html">
+          <div class="grid-item item2">FoSa</div>
+        </a> 
+        <div class="grid-item item3"></div> 
+        <a href="AboutSec.html">
+              <div class="grid-item item4"><i class="fa-solid fa-circle-info"></i> Despre</div>
+        </a>
+        <div class="grid-item item5"></div>
+        <a href="HelpSec.html">
+          <div class="grid-item item6"><i class="fa-solid fa-circle-question"></i> Ajutor</div>
+        </a>
+      </div>
+
+    <div class="box">
+        <form action="schimbareparola.php" method="post">
+            <div class="center">
+                <label for="mail"></label><br>
+                <input type="email" id="mail" name="mail" placeholder="Introduceti adresa dvs de email" required><br>
+                <label for="pass"></label><br>
+                <input type="password" id="pass" name="pass" placeholder="Parola Veche" required><br>
+                <label for="new"></label><br>
+                <input type="password" id="new" name="new" placeholder="Parola Noua" required><br><br><br>
+                <div class="button [type=submit]">
+                       <input type="submit" value="Schimbati Parola">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
